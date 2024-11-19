@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(./Untitled\ design\ \(1\)\ 1\(1\).png);
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: 50vw;
+            background-color: #1e1e1e;
+            color: white;
+        }
+        .login-container{
+            width: 100%;
+            height: 100vh;
+            box-sizing: border-box;
+
+        }
+        .login-form{
+            margin:5%;
+            width: 90%;
+            height: 90vh;
+            border-radius: 10px;
+            
+            background-color: #1e1e1ec8;
+            box-shadow:inset 0px 0px 1000px -8px rgba(204, 204, 204, 0.197);
+        }
+        .main-head{
+            font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  display: block;
+        }
+        .form-container{
+            width: 75%;
+            height: 80vh;
+            margin: 5%;
+            background-color: rgba(255, 235, 205, 0.008);
+        }
+        form{
+            font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-6 offset-6 login-container">
+            <div class="login-form">
+                <div class="form-container">
+                    <form action="">
+                        <span class="main-head">Welcome Back!</span><br><br>
+                        Email
+                        <input type="email" class="form-control"><br>
+                        Password
+                        <input type="text" class="form-control"><br><br>
+                        <button class="btn btn-secondary btn-lg btn-block" style="font-size: 30px;font-weight: 700;">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
